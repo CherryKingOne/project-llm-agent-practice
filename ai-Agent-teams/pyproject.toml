@@ -1,0 +1,12 @@
+[project]
+name = "ai-agent-teams"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain[openai]>=1.2.12",
+    "langchain-openai>=1.1.11",
+    "langgraph>=1.1.2",
+    "pytz>=2026.1.post1",
+]
